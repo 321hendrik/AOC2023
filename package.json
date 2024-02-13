@@ -1,0 +1,11 @@
+{
+  "name": "AOC2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hendrik Haas",
+  "license": "MIT",
+  "scripts": {
+    "start": "wrap () { cd ./\"$1\" && node --inspect index.js;cd ..; }; wrap",
+    "new": "wrap () { mkdir \"$1\" && cp template/* \"$1\"/; }; wrap"
+  }
+}
